@@ -1,0 +1,228 @@
+124559,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124565,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124568,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124571,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124574,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124577,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124579,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124582,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124585,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124587,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124590,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124592,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124594,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124598,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124600,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124602,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124604,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124606,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124608,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124610,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124612,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124614,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124616,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124620,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124622,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124624,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124626,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124628,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124630,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124632,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124634,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124636,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124638,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124645,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124647,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124653,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124655,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124657,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124659,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124661,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124666,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124669,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124672,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124674,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124677,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124680,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124684,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124686,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124688,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124690,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124692,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124694,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124696,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124698,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124707,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124709,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124713,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124715,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124724,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124726,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124730,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124732,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124736,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124742,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124745,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124747,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124749,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124751,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124753,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124755,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124757,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124759,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124761,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124765,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124767,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124769,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124771,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124773,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124775,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124777,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124779,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124782,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124784,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124788,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124790,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124792,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124794,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124796,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124798,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124800,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124802,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124804,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124806,Family Type: 600 x 900, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124808,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124810,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124812,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124818,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124820,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+124822,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+125944,Family Type: 305x165x40UB, Family: UB-Universal Beam,Metal,No Level
+125958,Family Type: 305x165x40UB, Family: UB-Universal Beam,Metal,No Level
+125972,Family Type: 305x165x40UB, Family: UB-Universal Beam,Metal,No Level
+126003,Family Type: 305x165x40UB, Family: UB-Universal Beam,Metal,No Level
+127308,Family Type: 305x165x40UB, Family: UB-Universal Beam,Metal,No Level
+127484,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127485,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127486,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127516,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127517,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127518,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127581,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127582,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127583,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127649,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127650,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+127651,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128135,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+128137,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+128139,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+128141,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+128143,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+128145,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+128147,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+128213,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128264,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128318,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128344,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128372,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128397,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128432,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+128473,Family Type: 400 x 800mm, Family: M_Concrete-Rectangular Beam,Concrete,No Level
+132740,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132741,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132742,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132744,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132745,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132746,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132748,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132749,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132750,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132751,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132752,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132753,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+132754,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133227,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133228,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133229,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133230,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133231,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133232,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133233,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133234,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133235,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133236,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133237,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133238,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+133239,Family Type: HSS114.3X8.6, Family: M_HSS-Round Structural Tubing,Metal,No Level
+150648,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+150724,Family Type: 254x102x28UB, Family: UB-Universal Beam,Metal,No Level
+122477,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122478,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122479,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122480,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122481,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122482,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122483,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122484,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122485,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122486,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122487,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122488,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122490,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122491,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122492,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122493,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122494,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122495,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122496,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122497,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122498,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122500,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122501,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122503,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122504,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122505,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122506,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122507,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122508,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122509,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122510,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122511,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122512,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122513,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122514,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122516,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122517,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122520,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122521,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122524,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122525,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122528,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122529,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122536,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122537,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122541,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122542,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122544,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122545,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122547,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122548,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122552,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122553,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122556,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122559,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122562,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122565,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122566,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122567,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122568,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122569,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122570,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122571,Family Type: 450mm, Family: M_Concrete-Round-Column,Concrete,Level(Name=01 - Entry Level, Elevation=0)
+122695,Family Type: 356x368x129UC, Family: UC-Universal Column-Column,Metal,Level(Name=01 - Entry Level, Elevation=0)
+122796,Family Type: 356x368x129UC, Family: UC-Universal Column-Column,Metal,Level(Name=01 - Entry Level, Elevation=0)
+122873,Family Type: 356x368x129UC, Family: UC-Universal Column-Column,Metal,Level(Name=01 - Entry Level, Elevation=0)
+123067,Family Type: 356x368x129UC, Family: UC-Universal Column-Column,Metal,Level(Name=01 - Entry Level, Elevation=0)
+123068,Family Type: 356x368x129UC, Family: UC-Universal Column-Column,Metal,Level(Name=01 - Entry Level, Elevation=0)
+123069,Family Type: 356x368x129UC, Family: UC-Universal Column-Column,Metal,Level(Name=01 - Entry Level, Elevation=0)
