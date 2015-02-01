@@ -1,4 +1,4 @@
-<Workspace Version="0.7.5.3566" X="-2110.71637884242" Y="956.123585307137" zoom="0.842893770232269" Description="" Category="" Name="Home">
+<Workspace Version="0.7.5.3566" X="-1888.14129026383" Y="733.149629756103" zoom="0.700573413225936" Description="" Category="" Name="Home">
   <Elements>
     <DSRevitNodesUI.Categories type="DSRevitNodesUI.Categories" guid="f375b4b0-48cb-4cd9-ad7e-a1b55bbdaf2c" nickname="Categories" x="19" y="104" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="835:StructuralFraming" />
     <Dynamo.Nodes.DSModelElementsSelection type="Dynamo.Nodes.DSModelElementsSelection" guid="182bef2c-7154-4c2c-8eeb-0cf76db0ee90" nickname="Select Model Elements" x="-28.4934840511203" y="-165.669214074201" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
@@ -262,7 +262,7 @@
         <Output value="unmatched" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="240b3f28-d129-4515-a164-af916bad9515" nickname="Element.Level" x="1467.06663346963" y="55.4251881008847" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+    <Dynamo.Nodes.Function type="Dynamo.Nodes.Function" guid="240b3f28-d129-4515-a164-af916bad9515" nickname="Element.Level" x="1468.31088128685" y="55.4251881008847" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <ID value="23a94b80-4bd0-436f-a1b1-f77654b4428c" />
       <Name value="Element.Level" />
       <Description value="Gets an element's level" />
@@ -329,8 +329,8 @@
     </Dynamo.Nodes.Function>
     <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="52c0c2da-af9a-4192-ad82-d3455063326b" nickname="Watch" x="1879.58857863988" y="-126.263641105617" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
     <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="acf6bc45-b1e2-44c7-b006-e6d397527611" nickname="Watch" x="2274.5268285415" y="-311.495022056822" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
-    <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="cf500914-d678-4497-8bdf-5a949002b520" nickname="Watch" x="1880.35444987733" y="261.981333368109" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
-    <DSIronPythonNode.PythonNode type="DSIronPythonNode.PythonNode" guid="c8d2f0db-64cc-4a2f-92af-deb2d5fd59ab" nickname="Python Script" x="2745.19930226627" y="-589.99038434967" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="4">
+    <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="cf500914-d678-4497-8bdf-5a949002b520" nickname="Watch" x="1836.87206698288" y="396.63645458964" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <DSIronPythonNode.PythonNode type="DSIronPythonNode.PythonNode" guid="c8d2f0db-64cc-4a2f-92af-deb2d5fd59ab" nickname="Python Script" x="2745.19930226627" y="-589.99038434967" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="6">
       <Script>import clr
 
 clr.AddReference('ProtoGeometry')
@@ -342,7 +342,8 @@ elementIds=IN[0]
 familyTypes=IN[1]
 materials=IN[2]
 levels=IN[3]
-
+start=IN[4]
+end=IN[5]
 
 data = []
 
@@ -351,13 +352,14 @@ for i in range (0,len(elementIds)-1):
 	section=familyTypes[i].ToString().Split(":", ",")
 	
 	elementData+="Section: " + section [1] + ","
-	elementData+="Material: "+ materials[i].ToString()+ ","
-	elementData+="Level: "
-	if(levels[i].ToString().Contains("List")):
-		elementData+="No Level"
-	else:
-		elementData+=levels[i].ToString()
-	
+	elementData+="Material: "+ materials[i].ToString()
+	#elementData+="Level: "
+	#if(levels[i].ToString().Contains("List")):
+	#	elementData+="No Level"
+	#else:
+	#	elementData+=levels[i].ToString()
+	#elementData+="StartPoint: "+ start[i]
+	#elementData+="EndPoint: "+ end[i]
 	
 	data.append(elementData);
 	
@@ -376,11 +378,74 @@ OUT = data</Script>
         <Output value="Type(s)" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="80433446-d169-4194-b026-df529e967600" nickname="Watch" x="3214.43472179487" y="-928.246227415775" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="80433446-d169-4194-b026-df529e967600" nickname="Watch" x="3309.34585155438" y="-900.959277609915" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="28b44b20-98c8-4d9e-b06b-2671781f9cbe" nickname="CSV.WriteToFile" x="3067.32247066763" y="-720.628131066841" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.IO.CSV.WriteToFile@string,var[][]" />
     <DSCore.File.Filename type="DSCore.File.Filename" guid="2c32723d-925d-4011-a3ab-b48e50fc1ef4" nickname="File Path" x="2624.7993281639" y="-864.181214828104" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <System.String>C:\Users\Ana\Documents\GitHub\cardboard-java\RevitData.txt</System.String>
     </DSCore.File.Filename>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="0a5e922a-9efb-42ac-a884-c247fd83ae28" nickname="List.GetItemAtIndex" x="2289.11182847576" y="492.341011057097" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.List.GetItemAtIndex@var[]..[],int" />
+    <DSCore.Map type="DSCore.Map" guid="ffafa739-115f-44bf-989c-d208a8e3c444" nickname="List.Map" x="2496.70514035896" y="380.128410039154" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="ef869322-c5bd-4ecf-b3c4-260b50a1791c" nickname="Code Block" x="2019" y="278" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="0;" ShouldFocus="false" />
+    <DSCore.Map type="DSCore.Map" guid="d2f9dad0-6bf6-44b9-a287-e8df35b5e106" nickname="List.Map" x="2510.32039888963" y="112.220825108815" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="3162a617-cee5-461d-8b15-4962b85d14ec" nickname="List.GetItemAtIndex" x="2302.72708700643" y="224.433426126758" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.List.GetItemAtIndex@var[]..[],int" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="64f4b378-4209-4424-bcd0-7dbd46e9615b" nickname="Code Block" x="2095.73484660326" y="530.478352290372" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1;" ShouldFocus="false" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="4574e575-c3a1-4773-9ad8-d936aff9ab6f" nickname="Point.X" x="2724.45278338432" y="-119.966190527257" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.X" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="b2f13c9c-17ef-4f71-9069-27cf594fec2b" nickname="Point.X" x="2724.92699833644" y="333.840712119252" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.X" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="571666ab-196e-4ae1-8a08-981f55450639" nickname="Point.Y" x="2726.74097244574" y="137.468660337852" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.Y" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="95369768-fbfa-4e2f-98e6-8bb64240aa5e" nickname="Point.Y" x="2716.5110532601" y="413.792190344537" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.Y" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="260f3ebc-05c6-4402-9939-679b2eb4f0be" nickname="Point.Z" x="2723.93565742029" y="223.030768614034" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.Z" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="9214dd06-81ec-4d06-ad7f-6532670c15ea" nickname="Point.Z" x="2720.71902579827" y="502.159613646167" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.Z" />
+    <DSIronPythonNode.PythonNode type="DSIronPythonNode.PythonNode" guid="2664e266-a9b7-40dc-83d6-f762067924d6" nickname="Python Script" x="3057.25804609523" y="80.0887902572059" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="4">
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+#The inputs to this node will be stored as a list in the IN variable.
+dataEnteringNode = IN
+
+x=IN[0]
+y=IN[1]
+z=IN[2]
+hasLocation=IN[3]
+
+coordinates = []
+test=[]
+i=0
+for j in range(0,len(hasLocation)-2):
+	if(hasLocation[j]=="true"):
+		test.append[j]
+		continue
+	else:
+		st="X "
+		st+=round(x[i],3).ToString()
+		st+=" Y "+ round(y[i],3).ToString()
+		st+=" Z "+ round(z[i],3).ToString()	
+		coordinates.append(st)
+		i+=1
+#Assign your output to the OUT variable
+OUT = test</Script>
+    </DSIronPythonNode.PythonNode>
+    <DSIronPythonNode.PythonNode type="DSIronPythonNode.PythonNode" guid="11158f5e-1f6c-4422-a278-7450e9217478" nickname="Python Script" x="3043.84355210005" y="575.803487632076" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="3">
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+#The inputs to this node will be stored as a list in the IN variable.
+dataEnteringNode = IN
+
+x=IN[0]
+y=IN[1]
+z=IN[2]
+
+coordinates = []
+for i in range(0,len(x)-1):
+	st="X "
+	st+=round(x[i],3).ToString()
+	st+=" Y "+ round(y[i],3).ToString()
+	st+=" Z "+ round(z[i],3).ToString()	
+	coordinates.append(st)
+#Assign your output to the OUT variable
+OUT = coordinates</Script>
+    </DSIronPythonNode.PythonNode>
+    <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="2eeff1af-97e4-4104-89a0-77f09db9701a" nickname="Watch" x="2883.47995069348" y="-208.013594783253" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
   </Elements>
   <Connectors>
     <Dynamo.Models.ConnectorModel start="f375b4b0-48cb-4cd9-ad7e-a1b55bbdaf2c" start_index="0" end="1c9953ac-8e66-4afb-a6d5-46b9f5f1cc80" end_index="0" portType="0" />
@@ -393,6 +458,10 @@ OUT = data</Script>
     <Dynamo.Models.ConnectorModel start="fccaf27a-ac91-4126-b5a2-2cf834c46a1d" start_index="0" end="c8d2f0db-64cc-4a2f-92af-deb2d5fd59ab" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="240b3f28-d129-4515-a164-af916bad9515" start_index="0" end="cf500914-d678-4497-8bdf-5a949002b520" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="6ad7a610-e61a-4a1e-9ed9-cc46935342cc" start_index="1" end="52c0c2da-af9a-4192-ad82-d3455063326b" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6ad7a610-e61a-4a1e-9ed9-cc46935342cc" start_index="1" end="ffafa739-115f-44bf-989c-d208a8e3c444" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6ad7a610-e61a-4a1e-9ed9-cc46935342cc" start_index="1" end="d2f9dad0-6bf6-44b9-a287-e8df35b5e106" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6ad7a610-e61a-4a1e-9ed9-cc46935342cc" start_index="4" end="2664e266-a9b7-40dc-83d6-f762067924d6" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6ad7a610-e61a-4a1e-9ed9-cc46935342cc" start_index="4" end="2eeff1af-97e4-4104-89a0-77f09db9701a" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="e6cc92c5-aa5a-42f2-87ad-0263030c171e" start_index="0" end="44c528ba-2d19-4498-8dc4-721361a03638" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="978746db-748d-4278-89e4-db43d20fa77e" start_index="0" end="1c9953ac-8e66-4afb-a6d5-46b9f5f1cc80" end_index="1" portType="0" />
     <Dynamo.Models.ConnectorModel start="1c9953ac-8e66-4afb-a6d5-46b9f5f1cc80" start_index="0" end="f75e3f0b-9619-47d0-845a-4bc2546a1732" end_index="0" portType="0" />
@@ -406,6 +475,24 @@ OUT = data</Script>
     <Dynamo.Models.ConnectorModel start="c8d2f0db-64cc-4a2f-92af-deb2d5fd59ab" start_index="0" end="28b44b20-98c8-4d9e-b06b-2671781f9cbe" end_index="1" portType="0" />
     <Dynamo.Models.ConnectorModel start="9e29317b-9400-47ec-9282-daeb20dd6e84" start_index="0" end="c8d2f0db-64cc-4a2f-92af-deb2d5fd59ab" end_index="1" portType="0" />
     <Dynamo.Models.ConnectorModel start="2c32723d-925d-4011-a3ab-b48e50fc1ef4" start_index="0" end="28b44b20-98c8-4d9e-b06b-2671781f9cbe" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="0a5e922a-9efb-42ac-a884-c247fd83ae28" start_index="0" end="ffafa739-115f-44bf-989c-d208a8e3c444" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ffafa739-115f-44bf-989c-d208a8e3c444" start_index="0" end="b2f13c9c-17ef-4f71-9069-27cf594fec2b" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ffafa739-115f-44bf-989c-d208a8e3c444" start_index="0" end="95369768-fbfa-4e2f-98e6-8bb64240aa5e" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ffafa739-115f-44bf-989c-d208a8e3c444" start_index="0" end="9214dd06-81ec-4d06-ad7f-6532670c15ea" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="ef869322-c5bd-4ecf-b3c4-260b50a1791c" start_index="0" end="3162a617-cee5-461d-8b15-4962b85d14ec" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="d2f9dad0-6bf6-44b9-a287-e8df35b5e106" start_index="0" end="4574e575-c3a1-4773-9ad8-d936aff9ab6f" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="d2f9dad0-6bf6-44b9-a287-e8df35b5e106" start_index="0" end="571666ab-196e-4ae1-8a08-981f55450639" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="d2f9dad0-6bf6-44b9-a287-e8df35b5e106" start_index="0" end="260f3ebc-05c6-4402-9939-679b2eb4f0be" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3162a617-cee5-461d-8b15-4962b85d14ec" start_index="0" end="d2f9dad0-6bf6-44b9-a287-e8df35b5e106" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="64f4b378-4209-4424-bcd0-7dbd46e9615b" start_index="0" end="0a5e922a-9efb-42ac-a884-c247fd83ae28" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="4574e575-c3a1-4773-9ad8-d936aff9ab6f" start_index="0" end="2664e266-a9b7-40dc-83d6-f762067924d6" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="b2f13c9c-17ef-4f71-9069-27cf594fec2b" start_index="0" end="11158f5e-1f6c-4422-a278-7450e9217478" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="571666ab-196e-4ae1-8a08-981f55450639" start_index="0" end="2664e266-a9b7-40dc-83d6-f762067924d6" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="95369768-fbfa-4e2f-98e6-8bb64240aa5e" start_index="0" end="11158f5e-1f6c-4422-a278-7450e9217478" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="260f3ebc-05c6-4402-9939-679b2eb4f0be" start_index="0" end="2664e266-a9b7-40dc-83d6-f762067924d6" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9214dd06-81ec-4d06-ad7f-6532670c15ea" start_index="0" end="11158f5e-1f6c-4422-a278-7450e9217478" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="2664e266-a9b7-40dc-83d6-f762067924d6" start_index="0" end="c8d2f0db-64cc-4a2f-92af-deb2d5fd59ab" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="11158f5e-1f6c-4422-a278-7450e9217478" start_index="0" end="c8d2f0db-64cc-4a2f-92af-deb2d5fd59ab" end_index="5" portType="0" />
   </Connectors>
   <Notes />
 </Workspace>
